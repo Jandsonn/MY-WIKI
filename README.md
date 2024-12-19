@@ -1,13 +1,52 @@
-# ProjetoFullStackCompleto
-Um projeto criado com nodejs, html, css , handlebars, que também é executado com a técnologia docker. 
+Projeto Full Stack Completo
 
-para executar o projeto será preciso ter o docker-compose instalado e também o docker, caso seja necessário a utilização ou sua escolha própria de utilizar ou não
-o docker para a execução deste projeto. Mas em caso de dúvidas tem como ver mais detalhes seguindo a documentação em: https://docs.docker.com/engine/reference/commandline/start/  .
-este projeto é um exemplo de lógico, como o twitter, você digita o que pensa ele vem com um método get pega as informações e tem os posts, que é público, 
-após isso bem antes de pública algo será necessário criar um cadastro e após o cadastro esse usuário pode criar seus pensamentos e postar, apenas o usuário logado na sessão tem
-as pesmissões de editar e excluir seus próprios posts. O projeto entrega sim essas resposabilidades de postas editar as públicações, criar usuário
-e valida o login desses usuários.
+Este projeto foi criado utilizando Node.js, HTML, CSS, Handlebars e conta com suporte para execução via Docker.
 
-"Jandson você fez esse projeto por quê?"
-Para por em práticas os meus conhecimentos em relação ao front-end e back-end, utilizando as seguintes tecnologias: nodejs, handlebars, HTML,CSS,JAVASCRIPT,DOCKER-COMPOSE . 
+Requisitos para Execução
+
+Para executar o projeto, é necessário ter o Docker e o Docker Compose instalados. A utilização do Docker é opcional, mas é altamente recomendada para simplificar o ambiente de execução. Caso tenha dúvidas, consulte a documentação oficial do Docker para mais detalhes: Documentação Docker.
+
+Sobre o Projeto
+
+Este é um exemplo de lógica similar ao Twitter, onde:
+
+O usuário pode criar posts públicos digitando o que pensa.
+
+Antes de postar, é necessário criar um cadastro.
+
+Após o cadastro e login, o usuário pode:
+
+Criar posts.
+
+Editar e excluir apenas os seus próprios posts.
+
+O projeto utiliza métodos HTTP para gerenciar essas funcionalidades:
+
+GET: Para buscar informações e exibir os posts.
+
+POST: Para criar novos posts.
+
+PUT: Para editar posts existentes.
+
+DELETE: Para remover posts do usuário logado.
+
+Objetivo do Projeto
+
+Por que criei este projeto?
+
+Para colocar em prática os conhecimentos adquiridos em desenvolvimento front-end e back-end, utilizando as seguintes tecnologias:
+
+Node.js: Lógica de negócios e integração com o banco de dados.
+
+Handlebars: Renderização dinâmica de páginas HTML.
+
+HTML/CSS: Construção e estilização da interface do usuário.
+
+JavaScript: Funcionalidades dinâmicas no front-end.
+
+Docker Compose: Facilitar a execução do projeto em um ambiente containerizado.
+
+Este projeto foi desenvolvido para consolidar e demonstrar minhas habilidades em tecnologias de desenvolvimento web completas (Full Stack).
+
+
 
