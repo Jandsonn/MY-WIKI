@@ -1,7 +1,7 @@
 const {Sequelize} = require('sequelize');
 
-const sequelize = new Sequelize ('toughts2', 'root', '12345', {
-    host: '172.18.0.2', //ipdocontainer
+const sequelize = new Sequelize ('railway', 'root', 'JurpUALXDmWsCANepWmTIHZhYdchdSPN', {
+    host: 'mysql://root:JurpUALXDmWsCANepWmTIHZhYdchdSPN@mysql.railway.internal:3306/railway', //ipdocontainer
     dialect: 'mysql',
 })
 
