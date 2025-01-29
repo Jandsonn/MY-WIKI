@@ -86,7 +86,9 @@ conn
 //.sync({ force: true })   //Not use if exists important Users saved XD
 .sync()
 .then(() => {
-    app.listen(PORT, '0.0.0.0')
+    app.listen(PORT, '0.0.0.0', ()=> {
+        console.log("server is running")
+    } )
 })
 .catch((err) =>console.log(err))
 
